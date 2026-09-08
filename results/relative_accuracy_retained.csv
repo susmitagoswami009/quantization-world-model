@@ -1,0 +1,6 @@
+subskill,fp16,int8,int4,int3
+causal_reasoning,1.0,1.0,0.923076923076923,0.7692307692307692
+object_permanence,1.0,1.0,0.9,1.3
+physical_state_prediction,1.0,1.125,1.125,1.25
+spatial_relation,1.0,1.0,1.0714285714285714,0.7857142857142858
+temporal_consistency,1.0,1.0,1.0,0.9375

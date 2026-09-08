@@ -1,0 +1,6 @@
+huggingface_hub>=0.24
+pillow>=10.0
+pandas>=2.0
+matplotlib>=3.8
+tqdm>=4.66
+numpy>=1.26

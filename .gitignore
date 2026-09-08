@@ -1,0 +1,29 @@
+# Large / regeneratable / not-ours-to-redistribute — see README.md for how to rebuild each
+
+# Quantized model weights (12 GB) — regenerate via scripts (download + convert_hf_to_gguf.py + llama-quantize)
+models/
+
+# Local toolchain: Python venv, portable compiler/CMake, node_modules, HF cache (2+ GB, machine-specific)
+tools/
+
+# Cloned third-party tool — not our code; see README.md for the clone+build command
+llama.cpp/
+
+# Downloaded CLEVRER source videos + extracted frame images — regeneratable via scripts/build_dataset.py,
+# and per docs/ATTRIBUTION_LOG.md these should be regenerated from source rather than re-hosted
+data/raw/clevrer_videos/
+data/processed/images/
+
+# Scratch space
+tmp/
+
+# Standard Python/Node noise
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+node_modules/
+*.log
+
+# OS noise
+Thumbs.db
+.DS_Store
